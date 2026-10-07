@@ -1,0 +1,53 @@
+{
+    "current_features": {
+        "bleeding_mean": {
+            "min": 0.0,
+            "max": 3.5
+        },
+        "general_emotional_condition_mean": {
+            "min": 3.0,
+            "max": 9.0
+        },
+        "general_physical_condition_mean": {
+            "min": 3.1666666666666665,
+            "max": 10.0
+        },
+        "type_of_stool_mean": {
+            "min": 0.0,
+            "max": 5.548387096774194
+        },
+        "lower_back_pain_mean": {
+            "min": 0.0,
+            "max": 2.875
+        },
+        "headache_mean": {
+            "min": 0.0,
+            "max": 1.9444444444444444
+        }
+    },
+    "historical_deviation_features": {
+        "bleeding_historical_deviation": {
+            "min": -0.583732057416268,
+            "max": 3.1
+        },
+        "general_emotional_condition_historical_deviation": {
+            "min": -1.5769230769230766,
+            "max": 1.580105807236242
+        },
+        "general_physical_condition_historical_deviation": {
+            "min": -2.2901313260362555,
+            "max": 1.6999544159544158
+        },
+        "type_of_stool_historical_deviation": {
+            "min": -2.0588235294117645,
+            "max": 1.626871794871795
+        },
+        "ovulation_test_values_historical_deviation": {
+            "min": -0.0964285714285714,
+            "max": 0.1022727272727272
+        }
+    },
+    "method": "Dataset-derived min-max normalization",
+    "purpose": "Fixed reference parameters for reproducible PSPI calculation",
+    "warning": "Research prototype only. Not clinically validated."
+}
